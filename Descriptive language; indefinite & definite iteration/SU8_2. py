@@ -1,0 +1,16 @@
+##Tebatso_Seshayi_40972364
+##You need to provide a sequence of numbers that will allow you to experiment with the while loop.
+pos_intiger = int(input("Please enter any positive: "))
+num=0
+Sum =0
+while (num<pos_intiger):
+    print(num,end=" ")
+    num+=1
+pos_intiger = int(input("\nPlease enter any positive: "))
+numm=0
+summ=0
+while numm<pos_intiger:
+    print(numm,end=" + ")
+    numm= numm + 1
+    summ =summ + numm
+print(pos_intiger,"=",summ)
