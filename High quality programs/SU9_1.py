@@ -3,6 +3,7 @@
 ##If the user enters a negative mark a message("Error negative mark" must be displayed.And should stop the program whenever
 import time
 
+
 ask_user = int(input("Hi do you want to calculate your mark? Press 0 to cancel .Any numeric number to continue:) ")) ##Asking the user if wishes to cancel or not
 while ask_user!=0: ##using the sentinel value to stop the program if the user doesnt want to continue calculating percentage
     semester_test = int(input("Enter your semester mark: "))##asking user to enter his or her semester mark
